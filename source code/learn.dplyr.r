@@ -66,4 +66,4 @@ summarise(data, sum_air_time = sum(air_time, na.rm=TRUE))
 # Melakukan Sampling dari data secara random dengan sample_n() atau sample_frac()
 # sample_n() menggunakan jumlah data, sample_frac() menggunakan persentase data
 sample_n(data,20)
-sample <- sample_frac(data,0.1)
+sample <- sample_frac(data, 0.1)
